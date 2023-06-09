@@ -1,0 +1,70 @@
+{% extends "layout.html" %} {% block content %}
+
+<!-- Article Page -->
+<section id="articles">
+  <div class="card mb-3" style="max-width: 540px">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="{{ url_for('static', filename='img/coldplay.jpeg') }}" class="img-fluid rounded-start" alt="coldplay" />
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Ini Saran Psikolog Atasi Kekecewaan Kalah War Tiket Coldplay</h5>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="{{ url_for('static', filename='img/tangan.jpg') }}" class="img-fluid rounded-start" alt="tangan" />
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Ahli Sebut Satu Cara Ampuh dan Sederhana Turunkan Stres</h5>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px">
+    <div class="row g-0">
+      <div class="col-md-4"><img src="{{ url_for('static', filename='img/tua.jpeg') }}" class="img-fluid rounded-start" alt="tua" /></div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Makin Tua Makin Suka Marah-marah?</h5>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="{{ url_for('static', filename='img/depresi.jpeg') }}" class="img-fluid rounded-start" alt="depresi" />
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Gejala Fisik Pada Pasien Depresi</h5>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="{{ url_for('static', filename='img/love.png') }}" class="img-fluid rounded-start" alt="love" />
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Kenali Gangguan Depresi Yang Masih Sering Diabaikan</h5>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

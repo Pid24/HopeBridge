@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+
+.nav-link {
+  color: #32610d;
+}
+
+.navbar-brand {
+  color: #32610d;
+}
+
+/* Hero Section*/
+
+#hero {
+  margin-top: 3%;
+}
+
+.hero-img {
+  margin-left: 20%;
+}
+
+.hero-h1 {
+  color: #32610d;
+}
+
+.hero-recolor {
+  color: #7bc144;
+  text-decoration: none;
+}
+
+/* Article Section */
+
+#article {
+  margin-top: 5%;
+}
+
+.card-group {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Contact Page */
+
+#fc {
+  margin-top: 5%;
+}
+
+.contact-h2 {
+  color: #32610d;
+}
+
+/* HopeBridge Page */
+
+#hope {
+  margin-top: 5%;
+}
+
+.hope-h2 {
+  color: #32610d;
+}
+
+/* About Page */
+
+#about {
+  margin-top: 5%;
+}
+
+.about-img {
+  margin-left: 30%;
+}
+
+.about-h1 {
+  color: #32610d;
+}
+
+.about-recolor {
+  color: #7bc144;
+  text-decoration: none;
+}
+
+/* Article Page */
+
+#articles {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 5%;
+}
+
+.footer-contact {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-hope {
+  color: white;
+  text-decoration: none;
+}
